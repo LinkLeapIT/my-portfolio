@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import Image from 'next/image';
-import me from "../public/assists/images/me.jpg";
+import me from "../public/assists/images/me3.jpg";
 
 const About: React.FC = () => {
   const [expanded, setExpanded] = useState(false);
