@@ -41,7 +41,7 @@ const Footer: React.FC = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <p>+61 470 286 853</p>
+              <p className='hover:text-[#3e2f39] transform transition-transform hover:scale-110'>+61 470 286 853</p>
             </a>
         </motion.div>
       </div>

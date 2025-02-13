@@ -40,11 +40,11 @@ const About: React.FC = () => {
             transition={{ duration: 1, delay: 0.3 }}
             className={`text-base md:text-lg text-[#3e2f39] tracking-widest transition-all duration-300 ${!expanded ? "line-clamp-6" : ""}`}
           >
-            I began my coding journey in 2022 and officially entered the development world in January 2023. I studied a Certificate IV in IT Programming from Granville TAFE and later studied a Diploma in Web Development, covering both front-end and back-end technologies. In addition, I enhanced my skills by completing over 180 online courses focused on UX, UI design, and coding best practices.
-            <br /><br />
-            In December 2023, I founded Link Leap IT Services, a startup dedicated to delivering custom web and mobile application solutions tailored to diverse business needs.
-            <br /><br />
-            My experience spans building dynamic projects with React, Next.js (using TypeScript), and React Native, while integrating powerful tools such as Firebase, Stripe, MongoDB, and NextAuth. I am passionate about learning and always eager to take on new challenges that bring innovative ideas to life.
+            I began my coding journey in 2022 and officially entered the development world in January 2023. After earning a Certificate IV in IT Programming from Granville TAFE, I advanced my expertise with a Diploma in Web Development, mastering both front-end and back-end technologies. Additionally, I completed over 180 online courses focused on UX/UI design, coding best practices, and modern web frameworks.
+            <br /> <br />
+            In December 2023, I founded Link Leap IT Services, a startup dedicated to delivering custom web and mobile application solutions tailored to diverse business needs. My experience spans building dynamic, scalable applications using React, Next.js (TypeScript), and React Native, while integrating powerful tools such as Firebase, Stripe, MongoDB, and NextAuth.
+            <br /> <br />
+            Passionate about innovation, I am always eager to take on new challenges, optimize user experiences, and bring cutting-edge ideas to life through clean, efficient code.
           </motion.p>
           <button 
             onClick={() => setExpanded(!expanded)}

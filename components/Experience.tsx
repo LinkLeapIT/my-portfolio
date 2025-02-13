@@ -18,7 +18,7 @@ const experiences = [
     Name: "Allora - Website",
     description:
       "Created a dynamic website for Italyn Restaurant featuring an online menu integrated with Stripe for secure payments and Firebase for data management. Developed with Next.js and TypeScript to deliver a modern, scalable front-end experience.",
-    link: "https://alloraristorante.it/servizi/",
+    link: "/comming-soon",
   },
   {
     date: "2024",
@@ -84,14 +84,14 @@ const Experience: React.FC = () => {
               whileInView={{ opacity: 1, x: 0 }}
               whileHover="hover"
               transition={{ duration: 0.5, delay: index * 0.2 }}
-              className="group relative block p-6 backdrop-blur-md rounded-sm w-full h-auto md:h-[380px] xl:h-[320px] mx-auto bg-gradient-to-br from-[#3e2f39] via-[#3e2f39] to-[#030303] shadow-md"
+              className="group relative block p-6 backdrop-blur-md rounded-sm w-full h-auto md:h-[380px] xl:h-[340px] mx-auto border shadow-md" // update the code so when hover on the card flip the card over for showing the the link and the logo of the project that I will import it from images 
             >
               <h3 className="text-xl font-semibold text-[#24C8D5]">
-                {exp.date} - {exp.Name}
+                {exp.Name}
               </h3>
               <p className="mt-2 text-gray-300">{exp.description}</p>
               <Link href={exp.link} target="_blank" className=" absolute bottom-0 right-0 flex flex-col items-end justify-end gap-2 w-24 h-24 text-[#b762d4] transform transition-transform duration-300 hover:scale-105 hover:text-[#c88edb]">
-                <p className="text-sm transform -rotate-45 absolute bottom-9">project link</p>
+                <p className="text-[10px] transform -rotate-45 absolute bottom-7">project link</p>
                 <RiArrowRightDownFill className="text-4xl text-end"/>
               </Link>
             </motion.div>
